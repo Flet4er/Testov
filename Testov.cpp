@@ -26,7 +26,7 @@ int main()
     std::transform(theLine.begin(), theLine.end(), theLine.begin(), tolower);
     newLine = theLine;
     sizeLine = theLine.size();
-    cout << sizeLine << endl;
+    //cout << sizeLine << endl;
 
     //"(" - Один раз     ")" - два и больше раза
     int i = 0;    
